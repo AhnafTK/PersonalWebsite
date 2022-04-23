@@ -1,0 +1,85 @@
+
+body{
+  background-color: rgb(0, 0, 0);
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+}
+
+/*For the Nav bar, padding and margin, no list style*/
+nav > ul{
+  
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+}
+
+/*For nav bar, makes it so the links are beside each other*/
+nav li{
+  display: inline-block;
+  margin-left: 15px;
+  padding-top: 15px;
+  
+  
+}
+
+/*For nav bar, padding*/
+.nav{
+  padding-top: 5px;
+ 
+}
+
+/*For nav bar, centers it*/
+.content {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+/*For nav bar, makes the links white, no text decoration*/
+.content > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+/*For the project image header*/
+.projectHeader{
+  
+  text-align: center;
+  min-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.introTextContainer{
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  min-width: auto;
+  max-width: 600px;
+  max-height: 150px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  
+  border: 2px solid white;
+  
+}
+
+.introText{
+  color: white;
+}
+
+.weightPlateCalculator{
+ 
+  margin-top: 30px;
+  min-width: auto;
+  max-width: 600px;
+  max-height: 600px;
+  color: white;
+  background-color: aqua;
+}
+
+

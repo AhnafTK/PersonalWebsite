@@ -1,0 +1,75 @@
+
+body{
+  background-color: rgb(0, 0, 0);
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+}
+
+nav > ul{
+  
+  margin: 0;
+  padding: 0;
+  
+  
+}
+
+nav{
+  float: middle;
+  
+}
+
+nav li{
+  display: inline-block;
+  margin-left: 15px;
+  padding-top: 15px;
+  
+}
+
+.nav{
+  padding-top: 5px;
+ 
+}
+
+
+
+.content {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+.content > li > a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+.introTextContainer{
+  
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  min-width: auto;
+  max-width: 600px;
+  padding-bottom: 10px;
+  
+  border: 2px solid white;
+  
+ 
+}
+.introText{
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.eyeImage{
+  text-align: center;
+  min-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
