@@ -9,7 +9,7 @@
 
     
       <div class = "projectHeader">
-        <img src="images/projects1.jpg" class="ProjectHeader">
+        <img src="images/projects1.jpg" class = "ProjectHeader">
       </div>
     
   
@@ -19,12 +19,11 @@
         <nav>
           <ul class = "content">
             <li><a href="homepage.html">- whoami -</a></li>
-            <li><a href="projects.html">-> projects -</a></li>
+            <li><a href="projects.html"><strong>- projects -</strong></a></li>
             <li><a href="contacts.html">- contacts -</a></li>
           </ul>
         </nav>
       </div>
-
     </header>
 
     <div class = "introduction">
@@ -33,7 +32,7 @@
           <p>
             <br>Here is a list of my notable projects that I've made so far.</br> 
             <br>This list is sorted from newest at the top, to the oldest in the bottom.
-            Each project has 3 Headers, i) the name, ii) the time it took to make and iii) a description of the project.
+            Each project has 3 Headers, i) the name, ii) the github repo  iii) The language used and iv) a description of the project.
             </br> 
             <br>All of these projects can be found on my github.</br>
             <br></br> 
@@ -43,28 +42,78 @@
       
     </div>
 
+    <div class = "website">
+      <div class = "websiteHeader">
+
+        <h3>This Website</h3>
+        <h4><a href="https://github.com/AhnafTK/PersonalWebsite">((Github Repo))</a></h4>
+        <h4>Language(s): HTML, CSS </h4>
+
+      </div>
+      <p>
+        This is a simple website that I made to showcase my projects.
+      </p>
+    </div>
+
+    <div class = "cardGame">
+      <div class = "cardGameHeader">
+
+        <div class="cardHeader" >
+          <img src="images/cardGameHeader.png">
+        </div>
+
+        <h3>Card Game</h3>
+        <h4><a href="">((Github Repo))</a></h4>
+        <h4>Language(s): Java </h4>
+       
+      </div>
+      <p>
+        This program is a simple card game that autogenerates a deck of cards for the user, and an opponent.
+        Each card has a number, that ranges from 1-10. The user and opponent each have 3 cards. The winner 
+        is determined by adding the numbers of the cards, and seeing who has the highest number.
+        <h4>uses: Arrays, Java Swing. </h4> 
+      </p>
+    </div>
+
     <div class = "weightPlateCalculator">
-      <h3>Weight Plate Calculator</h3>
+      <div class = "wpcHeader">
+
+        <div class="plateHeader" >
+          <img src="images/plate.png">
+        </div>
+
+        <h3>Weight Plate Calculator</h3>
+        <h4><a href="https://github.com/AhnafTK/WeightPlateCalculator">((Github Repo))</a></h4>        <h4>Language(s): Java </h4>
+        
+        
+      </div>
+      
       <p>
         Weight Plate Calculator is an excercise tool that calculates the number of
         weight plates needed for a given weight. For example, The user wants to load
         their barbell for a 135 lbs bench press. They'd need to input the total weight
         of 135 and the barbell weight of 45. Using these two numbers, the program
         calculates the weight of plates, and how many the user needs.
-        
+        <br> The calculation is done through a series of while loops, which pulls data from
+        data from arrays. The arrays are then used to calculate the number of plates needed.
+        <h4>  uses: Arrays, while-loops, Java Swing. </h4>
         <br>
-        Example:
-        </br>
-        <br> Total weight = 225</br>
-        <br> Barbell weight = 45</br>
+    
       </p>
     </div>
 
 
 
 
+
+
+
+
     
 
-
+    <footer>  
+      <p>Made by Ahnaf Kamal, 2022</p>
+    </footer>
+    
   </body>
 </html>

@@ -4,6 +4,7 @@ body{
   align-items: center;
   font-family: 'Courier New', Courier, monospace;
   font-size: 14px;
+  
 }
 
 /*For the Nav bar, padding and margin, no list style*/
@@ -47,39 +48,95 @@ nav li{
 /*For the project image header*/
 .projectHeader{
   
-  text-align: center;
   min-width: fit-content;
+  max-width:max-content;
   margin-left: auto;
   margin-right: auto;
 }
 
 .introTextContainer{
+  
   margin-top: 30px;
+  margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
   
   min-width: auto;
   max-width: 600px;
-  max-height: 150px;
+  max-height: 160px;
   padding-left: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   
   border: 2px solid white;
   
 }
 
 .introText{
+  
   color: white;
 }
 
 .weightPlateCalculator{
  
-  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+
+  margin-top: 50px;
   min-width: auto;
   max-width: 600px;
   max-height: 600px;
   color: white;
-  background-color: aqua;
 }
 
+
+.wpcHeader{
+  font-weight: bold;
+}
+.cardGame{
+  
+  margin-right:auto;
+  margin-left: auto;
+  
+  margin-top: 50px;
+  min-width: auto;
+  max-width: 600px;
+  max-height: 600px;
+  color: white;
+}
+
+.website{
+  text-align: right;
+  margin-right:auto;
+  margin-left: auto;
+  
+  margin-top: 50px;
+  min-width: auto;
+  max-width: 600px;
+  max-height: 600px;
+  color: white;
+}
+
+.websiteHeader > h4 > a{
+  text-decoration: none;
+  color: white;
+}
+.cardGameHeader > h4 > a{
+  text-decoration: none;
+  color: white;
+}
+.wpcHeader > h4 > a{
+  text-decoration: none;
+  color: white;
+}
+
+footer{
+  padding-top:30px;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 100px;
+  color:white;
+  
+}
 
