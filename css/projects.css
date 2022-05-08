@@ -1,19 +1,16 @@
-
+/* For the body */
 body{
   background-color: rgb(0, 0, 0);
   align-items: center;
   font-family: 'Courier New', Courier, monospace;
   font-size: 14px;
-  
 }
 
 /*For the Nav bar, padding and margin, no list style*/
 nav > ul{
-  
   margin: 0;
   padding: 0;
   list-style: none;
-  
 }
 
 /*For nav bar, makes it so the links are beside each other*/
@@ -21,14 +18,11 @@ nav li{
   display: inline-block;
   margin-left: 15px;
   padding-top: 15px;
-  
-  
 }
 
 /*For nav bar, padding*/
 .nav{
   padding-top: 5px;
- 
 }
 
 /*For nav bar, centers it*/
@@ -36,7 +30,6 @@ nav li{
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
-  
 }
 
 /*For nav bar, makes the links white, no text decoration*/
@@ -47,7 +40,6 @@ nav li{
 
 /*For the project image header*/
 .projectHeader{
-  
   min-width: fit-content;
   max-width:max-content;
   margin-left: auto;
@@ -55,33 +47,29 @@ nav li{
 }
 
 .introTextContainer{
-  
   margin-top: 30px;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
-  
   min-width: auto;
   max-width: 600px;
   max-height: 160px;
   padding-left: 30px;
   padding-bottom: 30px;
-  
   border: 2px solid white;
   
 }
 
+/*For the intro text. Makes the text white*/
 .introText{
-  
   color: white;
 }
 
+/*For the weight plate calculator section*/
 .weightPlateCalculator{
- 
   margin-left: auto;
   margin-right: auto;
   text-align: right;
-
   margin-top: 50px;
   min-width: auto;
   max-width: 600px;
@@ -89,15 +77,14 @@ nav li{
   color: white;
 }
 
-
+/*For the weight plate calculator header*/
 .wpcHeader{
   font-weight: bold;
 }
+
 .cardGame{
-  
   margin-right:auto;
   margin-left: auto;
-  
   margin-top: 50px;
   min-width: auto;
   max-width: 600px;
@@ -109,7 +96,6 @@ nav li{
   text-align: right;
   margin-right:auto;
   margin-left: auto;
-  
   margin-top: 50px;
   min-width: auto;
   max-width: 600px;
@@ -130,6 +116,7 @@ nav li{
   color: white;
 }
 
+/*For the footer*/
 footer{
   padding-top:30px;
   text-align: center;
@@ -137,6 +124,5 @@ footer{
   margin-right:auto;
   margin-top: 100px;
   color:white;
-  
 }
 

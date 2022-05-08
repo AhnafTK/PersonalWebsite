@@ -1,19 +1,17 @@
+/* For the body */
 body{
   background-color: rgb(0, 0, 0);
   align-items: center;
   font-family: 'Courier New', Courier, monospace;
   font-size: 14px;
   overflow-y: scroll;
-  
 }
 
 /*For the Nav bar, padding and margin, no list style*/
 nav > ul{
-  
   margin: 0;
   padding: 0;
   list-style: none;
-  
 }
 
 /*For nav bar, makes it so the links are beside each other*/
@@ -21,22 +19,18 @@ nav li{
   display: inline-block;
   margin-left: 15px;
   padding-top: 15px;
-  
 }
 
 /*For nav bar, padding*/
 .nav{
   padding-top: 5px;
- 
 }
-
 
 /*For nav bar, centers it*/
 .content {
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
-  
 }
 
 /*For nav bar, makes the links white, no text decoration*/
@@ -53,7 +47,6 @@ nav li{
 }
 .contactInfo > ul > li{
   list-style: none;
-  
 }
 
 .contactInfo > ul > li > a{
@@ -62,7 +55,6 @@ nav li{
   color: white;
 }
 
-
 .contactHeader{
   min-width: fit-content;
   max-width:max-content;
@@ -70,12 +62,11 @@ nav li{
   margin-right: auto;
 }
 
+/*For the footer*/
 footer{
   text-align: center;
   margin-left:auto;
   margin-right:auto;
   margin-top:300px;
-
-  
   color:white;
 }

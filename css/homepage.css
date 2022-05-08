@@ -1,4 +1,5 @@
 
+/* For the body */
 body{
   background-color: rgb(0, 0, 0);
   align-items: center;
@@ -7,73 +8,68 @@ body{
   overflow-y: scroll;
 }
 
+/* For the ul in the nav*/
 nav > ul{
-  
   margin: 0;
   padding: 0;
-  
-  
 }
 
+/* For the nav */
 nav{
   float: middle;
-  
 }
 
-nav li{
+/* For the lists in the nav bar*/
+nav > ul > li{
   display: inline-block;
   margin-left: 15px;
   padding-top: 15px;
-  
 }
 
+/* For the nav bar */
 .nav{
   padding-top: 5px;
- 
 }
 
-
-
+/* For the content div */
 .content {
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
- 
 }
 
+/* For the a elements in the lists in the content section*/
 .content > li > a {
   text-decoration: none;
   color: white;
-  
 }
 
+/* For the container that contains the intro text */
 .introTextContainer{
-  
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
-  
   min-width: auto;
   max-width: 600px;
   padding-bottom: 10px;
-  
   border: 2px solid white;
-  
- 
 }
+
+/* For the text in the intro section*/
 .introText{
   padding: 10px;
   text-align: center;
   color: white;
 }
 
+/* For the eye image*/
 .eyeImage{
   text-align: center;
   min-width: fit-content;
   margin-left: auto;
   margin-right: auto;
 }
-
+/* For the footer*/
 footer{
   text-align: center;
   margin-left:auto;
